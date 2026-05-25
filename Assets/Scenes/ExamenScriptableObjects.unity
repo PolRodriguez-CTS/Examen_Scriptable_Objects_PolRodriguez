@@ -208,7 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208114559}
   m_Layer: 0
-  m_Name: ---------------------------
+  m_Name: --- ITEMS ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -980,7 +980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 758016752}
   m_Layer: 0
-  m_Name: ---------------------------
+  m_Name: --- MANAGER ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3123,7 +3123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1847753980}
   m_Layer: 0
-  m_Name: ---------------------------
+  m_Name: --- PLAYER ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3233,7 +3233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972871308}
   m_Layer: 0
-  m_Name: ---------------------------
+  m_Name: --- CANVAS ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
