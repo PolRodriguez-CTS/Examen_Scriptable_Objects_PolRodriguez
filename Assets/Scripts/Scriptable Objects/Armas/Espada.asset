@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreArma: Espada
   precioArma: 1200
-  spriteArma: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  spriteArma: {fileID: 21300000, guid: 2b5554a8c7d35574f8d6ce17e5627615, type: 3}

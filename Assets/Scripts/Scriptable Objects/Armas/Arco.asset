@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreArma: Arco
   precioArma: 500
-  spriteArma: {fileID: 0}
+  spriteArma: {fileID: 21300000, guid: 9864c501fa9296e43bb2aaff09e85261, type: 3}

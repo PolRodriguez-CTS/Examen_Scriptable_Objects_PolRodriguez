@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreArmadura: Casco
   precioArmadura: 500
-  spriteArmadura: {fileID: 0}
+  spriteArmadura: {fileID: 21300000, guid: dd3b224f95ed7394190bd9c81b7b884c, type: 3}

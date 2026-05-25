@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreArma: Lanza
   precioArma: 800
-  spriteArma: {fileID: 0}
+  spriteArma: {fileID: 21300000, guid: d63052881725fce4a84af854d5605039, type: 3}

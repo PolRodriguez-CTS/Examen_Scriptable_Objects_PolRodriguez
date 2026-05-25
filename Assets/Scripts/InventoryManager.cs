@@ -17,6 +17,8 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    //Lógica de las armas ------------------------------------------------------
+
     public ScriptableArmas[] armasArray;
     public Text[] armasNombresArray;
     public Text[] armasPreciosArray;
@@ -33,6 +35,30 @@ public class InventoryManager : MonoBehaviour
                 armasPreciosArray[i].text = arma.precioArma;
 
                 armasSpritesArray[i].sprite = arma.spriteArma;
+
+                return;
+            }
+        }
+    }
+
+    //Lógica de las armaduras ----------------------------------------------------
+
+    public ScriptableArmaduras[] armadurasArray;
+    public Text[]   armadurasNombresArray;
+    public Text[]   armadurasPreciosArray;
+    public Image[] armadurasSpritesArray;
+
+    public void AddArmadura(ScriptableArmaduras armadura)
+    {
+        for(int i = 0; i < armadurasArray.Length; i++)
+        {
+            if(armadurasArray[i] == null)
+            {
+                armadurasArray[i] = armadura;
+                armadurasNombresArray[i].text = armadura.nombreArmadura;
+                armadurasPreciosArray[i].text = armadura.precioArmadura;
+
+                armadurasSpritesArray[i].sprite = armadura.spriteArmadura;
 
                 return;
             }

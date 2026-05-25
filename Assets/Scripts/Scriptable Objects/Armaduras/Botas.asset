@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreArmadura: Botas
   precioArmadura: 800
-  spriteArmadura: {fileID: 0}
+  spriteArmadura: {fileID: 21300000, guid: 933a307dc7810ed42b7a6fb78e0cadcf, type: 3}

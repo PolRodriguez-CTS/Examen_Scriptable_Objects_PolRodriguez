@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreArmadura: Pechera
   precioArmadura: 1200
-  spriteArmadura: {fileID: 0}
+  spriteArmadura: {fileID: 21300000, guid: 56c26c8bc45fa884e8058f709ebddf97, type: 3}

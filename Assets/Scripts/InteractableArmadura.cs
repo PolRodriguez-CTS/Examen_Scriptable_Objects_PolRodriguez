@@ -1,24 +1,23 @@
 using UnityEngine;
 
-public class InteractableArma : MonoBehaviour
+public class InteractableArmadura : MonoBehaviour
 {
-    public ScriptableArmas arma;
+    public ScriptableArmaduras armadura;
     public SpriteRenderer spriteRenderer;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    
+
     void Start()
     {
-
-        spriteRenderer.sprite = arma.spriteArma;
+        spriteRenderer.sprite = armadura.spriteArmadura;
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        InventoryManager.Instance.AddArma(arma);
+        InventoryManager.Instance.AddArmadura(armadura);
 
         Destroy(gameObject);
     }
